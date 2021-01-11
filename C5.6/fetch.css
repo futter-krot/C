@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Orbitron:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.input-bar {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	width: 1000px;
+	height: 90px;
+}
+.inp {
+	box-sizing: border-box;
+	border: 2px solid #21ebff;
+	font: normal 12px 'Orbitron';
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid darkslateblue;
+    position: absolute;
+    height: 30px;
+    top: 10px;
+    width: 190px;
+    left: 20px;
+}
+.inp1 {
+  margin-left: 200px;
+  box-sizing: border-box;
+  border: 2px solid #21ebff;
+  font: normal 12px 'Orbitron';
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid darkslateblue;
+    position: absolute;
+    height: 30px;
+    top: 10px;
+    width: 190px;
+    left: 20px;
+}
+.but {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center
+ 	flex-wrap: wrap;
+  	position: absolute;
+  	top:50px;
+  	left: 20px;
+  	overflow: hidden;
+  	width: 190px;
+  	background-color: transparent;
+}
+.uniq {
+  	outline: none; 
+  	border: 0;
+  	background: transparent;
+}
+.but {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+}
+.uniq {
+  color: #21ebff;
+  font: normal 12px 'Orbitron';
+  margin: 0 30px;
+  font-size: 30px;
+  /*padding: 10px 25px 10px 25px;*/
+  width: 190px;
+  height: 40px;
+  text-align: center;
+}
+.but:hover {
+  transition: 1s;
+  box-shadow: 0 5px 25px 0 #21ebff inset, 0 5px 25px 0 #21ebff;
+  color: #21ebff;
+  transform: scale(1.05);
+}
+.uniq:before {
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width: 5px;
+  height: 5px;
+  border-top: 2px solid #21ebff;
+  border-left: 2px solid #21ebff;
+  transition: 0.5s;
+}
+.uniq:after {
+  content: '';
+  position: absolute;
+  bottom:0;
+  right:0;
+  width: 5px;
+  height: 5px;
+  border-bottom: 2px solid #21ebff;
+  border-right: 2px solid #21ebff;
+  transition: 0.5s;
+}
+.uniq:hover:before {
+  height: 95%;
+  width: 98%;
+}
+.uniq:hover:after {
+  height: 95%;
+  width: 98%;
+}
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  position: relative;
+  margin-left: 10px;
+}
+.card {
+  width: 200px;
+  margin: 20px;
+}
+
+.card-image {
+  display: block;
+}

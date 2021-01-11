@@ -1,0 +1,36 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.texted {
+ 	display: flex;
+ 	justify-content: center;
+}
+.carousel {
+	display: flex;
+	margin: 0 200px;
+}
+.carousel:hover {
+	transform: scale(1.005);
+	transition: 1s ease-out 0.5s;
+	transition-duration: 1s;
+}
+img {
+	width:100%;
+	height:900px;
+}
+.painting {
+	text-transform: uppercase;
+	display: flex;
+ 	justify-content: space-around;
+ 	margin-top: 30px;
+ 	cursor: pointer;
+}
+::marker {
+	font-weight:bold;
+}
+li:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	transition: 0.8s;
+	border-radius: 30px;
+}
