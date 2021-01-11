@@ -9,11 +9,11 @@
 .carousel {
 	display: flex;
 	margin: 0 200px;
+	transition: 1s ease-out 0.5s;
 }
 .carousel:hover {
-	transform: scale(1.005);
+	transform: scale(1.05);
 	transition: 1s ease-out 0.5s;
-	transition-duration: 1s;
 }
 img {
 	width:100%;
