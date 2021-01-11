@@ -2,17 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .input-bar {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	justify-content: center;
-	width: 1000px;
-	height: 90px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+  height: 90px;
 }
 .inp {
-	box-sizing: border-box;
-	border: 2px solid #21ebff;
-	font: normal 12px 'Orbitron';
+  box-sizing: border-box;
+  border: 2px solid #21ebff;
+  font: normal 12px 'Orbitron';
     border-radius: 4px;
     display: flex;
     justify-content: center;
@@ -41,37 +41,37 @@
     left: 20px;
 }
 .but {
-  	display: flex;
-  	align-items: center;
-  	justify-content: center
- 	flex-wrap: wrap;
-  	position: absolute;
-  	top:50px;
-  	left: 20px;
-  	overflow: hidden;
-  	width: 190px;
-  	background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top:50px;
+    left: 20px;
+    overflow: hidden;
+    width: 190px;
+    background-color: transparent;
 }
 .but {
   display: flex;
   flex-wrap: wrap;
   position: absolute;
+  transition: 0.5s;
 }
 .uniq {
-  outline: none; 
-  border: 0;
-  background: transparent;
-  color: #21ebff;
-  font: normal 12px 'Orbitron';
-  margin: 0 30px;
-  font-size: 30px;
-  width: 190px;
-  height: 40px;
-  text-align: center;
-  padding: 0 30px;
+    outline: none;
+    border: 0;
+    background: transparent;
+    color: #21ebff;
+    font: normal 12px 'Orbitron';
+    margin: 0 30px;
+    font-size: 30px;
+    width: 190px;
+    height: 40px;
+    text-align: center;
+    padding: 0 30px;
 }
 .but:hover {
-  transition: 1s;
   box-shadow: 0 5px 25px 0 #21ebff inset, 0 5px 25px 0 #21ebff;
   color: #21ebff;
   transform: scale(1.05);
