@@ -52,25 +52,23 @@
   	width: 190px;
   	background-color: transparent;
 }
-.uniq {
-  	outline: none; 
-  	border: 0;
-  	background: transparent;
-}
 .but {
   display: flex;
   flex-wrap: wrap;
   position: absolute;
 }
 .uniq {
+  outline: none; 
+  border: 0;
+  background: transparent;
   color: #21ebff;
   font: normal 12px 'Orbitron';
   margin: 0 30px;
   font-size: 30px;
-  /*padding: 10px 25px 10px 25px;*/
   width: 190px;
   height: 40px;
   text-align: center;
+  padding: 0 30px;
 }
 .but:hover {
   transition: 1s;
